@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+}
+
+body {
+    /* background: sandybrown !important; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: linear-gradient(sandybrown, seashell);
+    background-repeat: no-repeat;
+}
+
+.row {
+    display: flex;
+}
+
+.row>div {
+    flex: 1;
+    background: seashell;
+    border: 1px solid grey;
+}
+
+.col {
+    margin: 1%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: fit-content;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+p.console {
+    font-family: 'Roboto Mono', monospace;
+}
+
+header.terminal {
+    background: #E0E8F0;
+    height: 30px;
+    border-radius: 8px 8px 0 0;
+    padding-left: 10px;
+}
+
+.terminal-container header .button {
+    width: 12px;
+    height: 12px;
+    margin: 10px 4px 0 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.green {
+    background-color: #3BB662 !important;
+}
+
+.red {
+    background-color: #E75448 !important;
+}
+
+.yellow {
+    background-color: #E5C30F !important;
+}
+
+
+/* .terminal-container {
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 14px;
+    position: relative;
+} */
+
+.terminal-fixed-top {
+    margin-top: 30px;
+}
+
+.terminal-home {
+    background-color: #30353A;
+    padding: 1.5em 1em 1em 2em;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #FAFAFA;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.align-vertically {
+    display: flex;
+    align-items: center;
+}
+
+.style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    background-color: #F5F5F5;
+}
+
+.style-1::-webkit-scrollbar {
+    width: 12px;
+}
+
+.style-1::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
