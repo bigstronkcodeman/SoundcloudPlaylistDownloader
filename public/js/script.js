@@ -34,7 +34,7 @@ socket.on("download_data", (data) => {
         active = false;
         return;
     }
-    $("#terminal").append(`<p>➜ ${data.toString()}</p>`);
+    $("#terminal").append(`<p>➜ ${data}</p>`);
     $("#terminal").scrollTop($("#terminal")[0].scrollHeight);
 });
 
